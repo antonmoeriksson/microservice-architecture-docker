@@ -15,16 +15,19 @@ Dependencies:
 The project can be built and run with the following commands:
 
 ## 1. PostgreSQL Database:
-docker build --no-cache -t postgres .
-docker run --rm --name=postgres_db --net=testnet postgres:latest
+`docker build --no-cache -t postgres .`
+
+`docker run --rm --name=postgres_db --net=testnet postgres:latest`
 
 ## 2. Go Server:
-docker build --no-cache -t go-server .
-docker run --rm --name=server --net=testnet go-server:latest 
+`docker build --no-cache -t go-server .`
+
+`docker run --rm --name=server --net=testnet go-server:latest`
 
 ## 3. Nginx:
-docker build --no-cache -t nginx .
-docker run --rm --name=nginx --net=testnet -p=30000:80 nginx:latest
+`docker build --no-cache -t nginx .`
+
+`docker run --rm --name=nginx --net=testnet -p=30000:80 nginx:latest`
 
 # Testing
 The system can be tested by running `go test` in the application folder.
