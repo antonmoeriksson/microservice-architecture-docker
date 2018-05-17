@@ -8,9 +8,9 @@ The backend consists of three different parts:
 
 # Building & Running
 Dependencies: 
-	* Docker 18.03.1-ce, build 9ee9f4
-	* PostgreSQL 9.5.12
-	* Nginx 1.10.3
+* Docker 18.03.1-ce, build 9ee9f4
+* PostgreSQL 9.5.12
+* Nginx 1.10.3
 
 The project can be built and run with the following commands:
 
