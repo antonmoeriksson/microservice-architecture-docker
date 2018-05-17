@@ -1,4 +1,4 @@
-# To-Do API
+# API for a Task Application
 This is a backend for managing a simple task management application.
 The backend consists of three different parts:
 
